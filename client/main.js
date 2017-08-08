@@ -10,6 +10,7 @@ import Link from '../imports/ui/Link';
 const routes = (
   <Router history={browserHistory}>
     <Route path="/signup" component={Signup} />
+    <Route path="/links" component={Link} />
   </Router>
 );
 
